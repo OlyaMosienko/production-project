@@ -60,7 +60,8 @@ module.exports = {
         "@typescript-eslint/prefer-ts-expect-error": "off",
         "@typescript-eslint/no-confusing-void-expression": "off",
         "react/no-deprecated": "off",
-        "i18next/no-literal-string": ['error', {markupOnly: true}]
+        "i18next/no-literal-string": ['error', { markupOnly: true }],
+        "max-len": ['error', { ignoreComments: true }]
     },
     globals: {
         __IS_DEV__: true
